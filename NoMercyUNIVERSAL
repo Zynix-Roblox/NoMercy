@@ -455,7 +455,7 @@ RunService.RenderStepped:Connect(function()
                 if onScreen then
                     local size = 1000 / screenPos.Z
                     if State.ESPBox then
-                        esp.Box.Size = Vector2new(size, size * 1.5); esp.Box.Position = Vector2new(screenPos.X - size/2, screenPos.Y - (size * 1.5)/2); esp.Box.Color = color
+                        esp.Box.Size = Vector2new(size, size * 2,5); esp.Box.Position = Vector2new(screenPos.X - size/2, screenPos.Y - (size * 2,5)/2); esp.Box.Color = color
                     end
                     if State.ESPName then
                         esp.Name.Text = p.Name; esp.Name.Size = 14; esp.Name.Center = true; esp.Name.Outline = true; esp.Name.Position = Vector2new(screenPos.X, screenPos.Y - (size * 1.5)/2 - 15); esp.Name.Color = CONFIG.Text

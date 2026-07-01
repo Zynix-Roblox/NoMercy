@@ -550,4 +550,4 @@ RunService.Stepped:Connect(function()
     end
 end)
 
-print("NoMercy MASTER Loaded. Skeleton ESP & Hard Lock Enabled.")
+print("NoMercy Loaded • Zynix Team")

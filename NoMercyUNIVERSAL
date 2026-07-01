@@ -27,7 +27,7 @@ local DrawingNew = (getgenv and getgenv().Drawing and getgenv().Drawing.new) or 
 
 -- Configuration
 local CONFIG = {
-    Key = "NoMercy123",
+    Key = "freeby1",
     ToggleKey = Enum.KeyCode.LeftAlt,
     Accent = Color3fromRGB(255, 0, 0),
     Background = Color3fromRGB(12, 12, 12),
@@ -108,7 +108,7 @@ KeyInput.Position = UDim2.new(0.5, 0, 0.45, 0)
 KeyInput.AnchorPoint = Vector2new(0.5, 0.5)
 KeyInput.BackgroundColor3 = CONFIG.Secondary
 KeyInput.Font = CONFIG.Font
-KeyInput.PlaceholderText = "Enter Master Key..."
+KeyInput.PlaceholderText = "Enter Key..."
 KeyInput.Text = ""
 KeyInput.TextColor3 = CONFIG.Text
 KeyInput.TextSize = 14
